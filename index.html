@@ -5,22 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/query.css" media="(min-width: 970px)">
   <title>Document</title>
 </head>
 <body>
+  <button id="btn_menu" class="burger__menu">
+    <span class="burger__icon-top "></span>
+    <span class="burger__icon-meddle "></span>
+    <span class="burger__icon-bottom "></span>
+  </button>
   <header>
     <p>This Interior</p>
     <nav id="nav_menu" class="navbar">
       <ul>
-        <li>Home</li>
-        <li>Collection</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Collection</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <button id="btn_menu" class="header__btn">
-      <span class="header__icon"></span>
-    </button>
   </header>
   <main>
     <section class="info">

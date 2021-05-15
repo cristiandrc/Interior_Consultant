@@ -1,0 +1,131 @@
+body {
+    /* align-items: center; */
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+.burger__menu {
+    display: none;
+}
+
+header {
+    /* display: flex; */
+    justify-content: space-between;
+    /* padding: 0 10vw; */
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header p {
+    margin: 0 0 0 30px;
+}
+
+.navbar {
+    display: flex;
+    position: static;
+    opacity: 1;
+    background: none;
+    height: 100%;
+    width: auto;
+    transition: none;
+}
+
+.navbar ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin-right: 30px;
+
+}
+
+.navbar ul li:first-child {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.navbar li {
+    list-style: none;
+    margin: 20px 30px;
+    display: inline-block;
+}
+.navbar li a {
+    font-size: 1.8rem;
+    list-style: none;
+    margin: 20px 0;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* //////////////////////////////////////////// */
+
+
+.info__title {
+    font-size: 4.8rem;
+}
+
+.info__parrafo {
+    font-size: 2.4rem;
+    width: 322px;
+}
+
+.info__btn {
+    font-size: 1.8rem;
+}
+
+/* //////////////////////////////////////////////// */
+
+.img__container {
+    max-width: 600px;
+}
+
+.img__main {
+    max-width: 700px;
+    /* width: 80%; */
+    min-width: 350px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 300px;
+    height: 138px;
+    background: #181719;
+    position: absolute;
+    margin: 0 auto;
+    bottom: -70px;
+    right: 30px;
+    /* transform: translate(85%, -40%); */
+    padding: 10px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card__designer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card__img {
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card h4{
+    font-size: 1.4rem;
+}
+.card p{
+    font-size: 1.2rem;
+}
+.card h2{
+    font-size: 2.2rem;
+    width: 210px;
+}
+
+
+/* ////////////////////////////////////////////// */
