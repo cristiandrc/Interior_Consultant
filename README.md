@@ -28,7 +28,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/71574354/118348128-c472eb00-b50d-11eb-8483-7d1b90a23c59.png)
+![screenshot](https://user-images.githubusercontent.com/71574354/118348128-c472eb00-b50d-11eb-8483-7d1b90a23c59.png =450x)
 
 
 
